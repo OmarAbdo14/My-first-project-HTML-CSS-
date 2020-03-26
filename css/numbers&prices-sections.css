@@ -1,0 +1,66 @@
+/* 3.6-Numbers Section */
+.numbers {
+    background-image: url('../images/background/background2.webp');
+    background-size: cover;
+    background-attachment: fixed;
+    height: 300px;
+}
+.numbers .container {
+    padding: 100px 0; 
+}
+.numbers-item {
+    width: 25%;
+}
+.numbers-item .icon {
+    margin-bottom: 15px;
+}
+.numbers-item-title {
+    font-weight: bold;
+    font-size: 30px;
+    margin-bottom: 15px;
+}
+
+
+/* Prices Section*/
+.pricing-item {
+    padding: 40px 15px;
+    border: 1px solid #e8e8e8;
+}
+.pricing-item.mg {
+    margin: 0 5%;
+}
+.pricing-item-text {
+    font-size: 17px;
+    transition: color 0.5s;
+}
+.pricing-item-permonth {
+    width: 130px;
+    height: 130px;
+    padding: 20px 0;
+    margin: 20px auto;
+    border: 2px solid #6195ff;
+    transition: color 0.5s;
+}
+ .doller {
+    font-size: 50px; 
+}
+.month {
+font-weight: bold;
+font-size: 15px;
+}
+.pricing-list .gray-color {
+line-height: 1.8;
+}
+.pricing-item-parchase {
+    background: none;
+    width: 120px;
+    border: 2px solid #6195ff;
+    padding: 10px;
+    margin: 15px auto 0 auto;
+}
+.pricing-item:hover .pricing-item-permonth {
+    color: #ffffff;
+}
+.pricing-item:hover .pricing-item-text {
+    color: #6195ff;
+}

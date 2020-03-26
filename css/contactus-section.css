@@ -1,0 +1,36 @@
+/* Contact Section */
+.contactus-header-content.mg {
+    margin: 0 5% 70px;
+}
+.contactus-header-content-title {
+    margin: 15px 0 20px;
+}
+.contactus-form-container {
+    padding: 0 220px;    
+}
+.contactus-form {
+    padding: 10px 0;
+    background-color: #e8e8e8;
+}
+.name-input, .email-input {
+    width: 270px;
+    height: 37px;
+    margin-bottom: 5px;
+}
+.subject-input , .message-input {
+    width: 545px;
+    height: 55px;
+    margin: 3px 0;
+}
+.send-input {
+    padding: 15px 35px ;
+    margin: 1px 0; 
+    font-size: 15px;
+    border-radius: 10px;
+    color: #ffffff;
+    border: 1px solid #6195ff;
+    transition: opacity 0.5s;
+}
+.send-input:hover {
+    opacity: 0.9;
+}

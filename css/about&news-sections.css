@@ -1,0 +1,58 @@
+/* 3.2-About Section */
+.about-item {
+    border: 1px solid #e8e8e8;
+    padding: 50px 20px;
+}
+.about-item .icon {
+    margin-bottom: 10px;
+}
+.about-item-title {
+    margin-bottom: 10px;
+    transition: color 0.5s;
+}
+.about-item:hover .about-item-title {
+    color: #ffffff;
+}
+.about-item-desc {
+    line-height: 1.6;
+    margin-bottom: 10px;
+}
+.about-item-link:hover {
+    color: #ffffff;
+    text-decoration-line: underline;
+}
+.about-item.mg {
+    margin: 0px 5%;
+}
+
+
+/* Recent-news */
+.news-item.mg {
+    margin: 0 5%;
+}
+.news-item-list {
+    padding: 5px ;
+}
+.news-item-list li{
+    display: inline-block;
+    padding: 5px;
+    font-size: 13px;
+}
+.news-item-list i {
+    padding-right: 4px;
+} 
+.news-item-disc {
+    width: 95%;
+    margin-left: 10px;
+}
+.news-item-text {
+    padding: 10px 0;
+    font-size: 14px;
+    font-weight: 600;
+}
+.news-item-disc .blog-link {
+    width: 80px;
+}
+.news-item-disc .blog-link:hover {
+    text-decoration: underline;
+}

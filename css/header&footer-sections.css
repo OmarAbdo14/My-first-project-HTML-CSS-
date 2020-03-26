@@ -1,0 +1,89 @@
+/* 3.0-Header */
+.header {
+    z-index: 10;
+}
+/*
+.header-content {
+    To solve float problem 
+    overflow: hidden;
+}
+*/
+.header .logo {
+    width: 40%;
+}
+.header .logo img {
+    width: 20%;
+    margin-top: 19px;
+}
+.header .nav {
+    width: 60%;
+    text-align: right;
+}
+.header .nav > li {
+    display: inline-block;
+}
+.header .nav > li > a {
+    /* To make padding */
+    display: block;
+    font-size: 15px;
+    padding: 30px 10px;
+    
+}
+.header .nav > li > a:after, .header .nav > li > a.active:after {
+    content: "";
+    display: block;
+    height: 3px;
+    background-color: #6195ff;
+    transition: width 0.5s;
+    margin-top: 2px;
+}
+.header .nav  > li > a.active:after {
+    width: 100%;
+}
+.header .nav  > li > a:after {
+    width: 0;
+}
+.header .nav  > li > a:hover:after {
+    width: 100%;
+}
+.dropdown-menu {
+    width: 150px;
+    left: -90%;
+    top: 70%;
+    opacity: 0;
+    visibility: hidden;
+    transition: opacity 1s;
+
+}
+.dropdown-menu a {
+    padding: 10px;
+}
+.dropdown:hover .dropdown-menu {
+    opacity: 1;
+    visibility: visible;
+}
+
+
+/* Footer Section */
+.footer {
+    background-color: #1c1d21;
+    padding: 60px 0;
+}
+.footer-list {
+    margin: 20px 0 ;
+}
+.footer-list li {
+    display: inline-block;
+}
+.footer-list li a {
+    width: 50px;
+    height: 50px;
+    margin: 0 5px;
+}
+.footer-list li a i {
+    line-height: 50px;
+}
+.footer-text {
+    font-size: 15px;
+    border-radius: 5px 5px 0 0;
+}

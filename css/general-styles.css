@@ -1,0 +1,61 @@
+/*
+    1- Common Styles
+    2- General Styles
+    3- Sections :
+        3.0- Header section
+        3.1- Home Section
+        3.2- About Section
+        3.3- Portfolio Section
+        3.4- Service Section
+        3.5- Offer Section
+        3.6- Prices Section
+        3.7- Team Section
+        3.8- Recent-news Page
+        3.9- Contact Section
+        3.10- Footer Section
+*/
+
+/* 2- General CSS Styles */
+* {
+    margin: 0;
+    padding: 0;
+    /*لعدم زيادة العرض عند اضافة فراغات*/
+    box-sizing: border-box;
+}
+body{
+    font-family: 'varela Round', sans-serif;
+}
+h1, h2, h3, h4, h5, h6 {
+    font-family: montserrat, sans-serif;
+}
+button {
+    font-family:  inherit;
+}
+a {
+    text-decoration: none;
+    color: #000000;
+}
+ul {
+    list-style-type: none;
+}
+#back-to-top {
+    /* display: none; */
+    position: fixed;
+    bottom: 20px;
+    right: 20px;
+    width: 50px;
+    height: 50px;
+    line-height: 50px;
+    text-align: center;
+    background: #6195ff;
+    border-radius: 3px;
+    color: #fff;
+    z-index: 9999;
+    -webkit-transition: .2s opacity;
+    transition: .2s opacity;
+    cursor: pointer;
+}
+#back-to-top:after {
+    content: "\f106";
+    font-family: fontawesome;
+}
